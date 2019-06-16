@@ -9,6 +9,12 @@ const data = {
   email: 'jdoe@gmail.com'
 }
 
+// GET Users
+// http.get('https://jsonplaceholder.typicode.com/users')
+//   .then(data => console.log(data))
+//   .catch(err => console.log(err));
+
+
 // Create User
 // http.post('https://jsonplaceholder.typicode.com/users', data)
 //   .then(data => console.log(data))
@@ -22,6 +28,6 @@ const data = {
 
 
 // Delete User
-// http.delete('https://jsonplaceholder.typicode.com/users/2')
-//   .then(data => console.log(data))
-//   .catch(err => console.log(err));
+http.delete('https://jsonplaceholder.typicode.com/users/2')
+  .then(data => console.log(data))
+  .catch(err => console.log(err));
