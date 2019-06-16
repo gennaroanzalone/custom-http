@@ -1,39 +1,6 @@
-const http = new easyHTTP;
-
-// Get Posts
-
-// http.get('https://jsonplaceholder.typicode.com/posts', 
-// function(err, posts){
-//   if(err) {
-//     console.log(err);
-//   } else {
-//     console.log(posts);
-//   }
-// });
-
-// Create Data
-// const data = {
-//   title: 'Custom Post',
-//   body: 'This is a custom post'
-// };
-
-// Create Post
-// http.post('https://jsonplaceholder.typicode.com/posts', 
-// data, function(err, post){
-//   if(err) {
-//     console.log(err);
-//   } else {
-//     console.log(post);
-//   }
-// });
+const http = new EasyHTTP;
 
 // EASY HTTP 2 - ASYNC
-
-// GET Users
-http.get('https://jsonplaceholder.typicode.com/users')
-  .then(data => console.log(data))
-  .catch(err => console.log(err));
-
 
 // User Data
 const data = {
